@@ -49,7 +49,7 @@ public class ContactsFragment extends Fragment
         ContactsView = inflater.inflate(R.layout.fragment_contacts, container, false);
 
 
-        myContactsList = (RecyclerView) ContactsView.findViewById(R.id.contacts_list);
+        myContactsList = (RecyclerView) ContactsView.findViewById(R.id.contact_list);
         myContactsList.setLayoutManager(new LinearLayoutManager(getContext()));
 
 
